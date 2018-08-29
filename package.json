@@ -1,11 +1,11 @@
 {
-  "name": "boilerplate-react-webpack",
-  "version": "0.2.1",
-  "description": "A webpack React starter",
+  "name": "dirtrax-react",
+  "version": "0.1.0",
+  "description": "A trail mapping & sharing platform",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
-  "author": "EDA",
-  "license": "ISC",
+  "author": "James Built",
+  "license": "MIT",
   "scripts": {
     "start": "webpack && node server",
     "dev": "node server & webpack --watch",
@@ -41,6 +41,7 @@
     "jest": "^22.1.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.11.1"
   }
