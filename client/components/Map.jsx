@@ -2,28 +2,28 @@ import React from 'react'
 import {Map as LeafletMap, TileLayer, Marker, Popup} from 'react-leaflet'
 // import Leaflet from 'leaflet'
 
-
 export class Map extends React.Component {
   constructor () {
     super()
     this.state = {
-      lat: -36.7398007,
-      lng: -174.420835,
-      zoom: 20
+      lat: -36.7400,
+      lng: 174.4224,
+      zoom: 16
     }
   }
 
   render () {
     const position = [this.state.lat, this.state.lng]
+    const woodhill = [-36.7400, 174.4224]
     return (
       <LeafletMap center={position} zoom={this.state.zoom}>
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
         />
-        <Marker position={position}>
+        <Marker position={woodhill}>
           <Popup>
-            A pretty CSS3 popup. <br/> Easily customizable.
+            Woodhill trail head
           </Popup>
         </Marker>
       </LeafletMap>
