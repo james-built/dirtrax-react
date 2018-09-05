@@ -6,7 +6,7 @@ export class Home extends React.Component {
     return (
       <div>
         <h1>The Home Page</h1>
-        <Link to={'/Nav'}><button>go to nav</button></Link>
+        <Link to={'/Nav'}> <button>go to nav</button></Link>
       </div>
     )
   }
