@@ -1,20 +1,8 @@
 # A trail mapping & sharing platform
 
+## Introduction
+This was my first idea for a personal project to work on during my EDA web dev bootcamp. The aim was to create a mapping app to guide you around the Woodhill MTB park & to have some additional features such as user reviews for trails & user updates on current trail conditions.
 
+I experimented with the leaflet mapping library, and this repo is my second implementation of this when I went to shift the work I had done to React after we had learnt this. I found I was spending too much time reading the leaflet & leaflet-react docs and was not making as much progress with the app or learning other technologies I wanted to cover so put this project on pause.
 
-// Boilerplate notes
-
-This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
-
-* Fork this repo
-* Rename your repo according to the app you're building
-
-```sh
-git clone https://github.com/[your-account]/[your-app].git
-cd [your-app] && yarn
-```
-
-To start the development server with a watcher that rebuilds your code, run `yarn dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.
-
-Additional components should be placed in `client/components`.
-
+As such this project is currently a WIP so check back in future when I will go back and implement all the features I hoped this app would have!
